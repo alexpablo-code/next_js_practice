@@ -1,0 +1,15 @@
+NEXT.JS START
+
+CREATE
+npx create-next-app projectFolderName
+
+RUN 
+npm run dev
+
+ROUTES
+in the app folder, every folder is a route and if we need a subroute we add folders as well
+
+Server Components:
+not as interactive
+No component state. We can not use the 'useState' hook.
+no component lifecycle methods. we can not use the 'useEffect' hook.
